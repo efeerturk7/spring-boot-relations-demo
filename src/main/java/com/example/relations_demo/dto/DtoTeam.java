@@ -1,6 +1,6 @@
 package com.example.relations_demo.dto;
 
-import com.example.relations_demo.entity.Player;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

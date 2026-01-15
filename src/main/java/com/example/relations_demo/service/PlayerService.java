@@ -20,9 +20,9 @@ public class PlayerService {
     @Autowired
     private IPlayerRepository playerRepository;
 
-    public DtoPlayer addPlayer(DtoPlayerIU newPlayer) {
+    public DtoPlayer addPlayer(DtoPlayerIU newPlayer,Long team_id) {
         Player player = new Player();
-        Optional<Team> optional = teamRepository.findById(player.getId());
+        Optional<Team> optional = teamRepository.findById(team_id);
         Team team = optional.get();
         player.setName(newPlayer.getName());
         player.setTeam(team);

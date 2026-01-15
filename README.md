@@ -8,7 +8,7 @@ Projenin temel amacı; Entity ve DTO (Data Transfer Object) ayrımını net bir 
 * **Java 17+**
 * **Spring Boot 3.x**
 * **Spring Data JPA (Hibernate)**
-* **MySQL Database**
+* **PostgreSQL Database**
 * **Lombok**
 * **Maven**
 

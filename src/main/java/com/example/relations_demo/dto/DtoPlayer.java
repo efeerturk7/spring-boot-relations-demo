@@ -10,5 +10,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class DtoPlayer {
     private String name;
-    private Team team;
+    private DtoTeam team;
 }
